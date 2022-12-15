@@ -1,0 +1,50 @@
+.container-pro{
+    width:100%;
+    bottom:-1800px;
+}
+.footer-pro{
+    counter-reset: step;
+}
+.footer-pro li:before{
+    content:counter(step);
+    counter-increment: step;
+    width :30px;
+    height:30px;
+    border: 1px solid rgb(197, 193, 193);
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: rgb(197, 193, 193);
+
+}
+.footer-pro li.active{
+    color: green;
+}
+.footer-pro li.active:before{
+    background:green;
+    color:white;
+}
+/* .footer-pro li.active:after{
+    background-color:green;
+    color:green;
+} */
+.footer-pro li:after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height:1px;
+    background-color: rgb(197, 193, 193);
+    top: 15px;
+    left: -50%
+}
+.footer-pro li:first-child:after{
+    content:None
+}
+.footer-pro li{
+    position: relative;
+    width: 25%;
+    float: left;
+    list-style: none;
+    text-align: center;
+}

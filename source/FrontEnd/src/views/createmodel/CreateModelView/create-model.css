@@ -1,0 +1,137 @@
+.left-minus-3em {
+    left: -3em;
+}
+
+.left-minus-2-28em {
+    left: -2.28em;
+}
+
+.left-minus-2em {
+    left: -2em;
+}
+
+.left-top-minus-2-3em {
+    left: 2em;
+    top: -3em;
+}
+
+.top-plus-1em {
+    top: 1em;
+}
+
+.top-minus-1em {
+    top: -1em;
+}
+
+/* --------------------- Block Padding -------------------- */
+.p-1 {
+    padding: 1em;
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.p-3 {
+    padding: 3em;
+}
+
+.pr-1 {
+    padding-right: 1em;
+}
+
+.pr-2 {
+    padding-right: 2em;
+}
+
+
+
+/* -------------------- Min - Height  ----------------------*/
+
+.mh-1 {
+    min-height: 1em !important;
+}
+
+/* -------------------- Text Colors ------------------------*/
+
+.text-light {
+    color: #FFF;
+}
+
+.text-yellow-green {
+    color: yellowgreen;
+}
+
+
+
+
+/* --------------------- Background Colors ------------------*/
+.bg-yellow-green {
+    background: yellowgreen;
+}
+
+/* ---------------------- Fonts Styles --------------------------*/
+.font-bold {
+    font-weight: bolder;
+}
+
+/* -------------------------- Table Styles ----------------  */
+.table-height-400X {
+    /* height: 400px !important; */
+    min-height: 400px !important;
+}
+
+
+
+/* ---------------------- Custom CSS --------------------------*/
+.arrow-right {
+    /* width: 0; */
+    /* height: 0; */
+    /* border-top: 20px solid transparent; */
+    /* border-bottom: 20px solid transparent; */
+    /* 40px height (20+20) */
+    /* border-right: 20px solid green; */
+    /* position: absolute; */
+    /* right: -20px; */
+
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+
+.cust-btn-width1 {
+    padding: 0px;
+    min-width: 20px !important;
+}
+
+.cust-display-none {
+    display: none;
+}
+
+.custom-mselect1 {
+    width: 100px;
+    height: 16px;
+    font-size: 8px;
+    /* font-weight: bolder; */
+}
+
+
+.custom-mbtn1 {
+    background: #dc3545;
+    background-color: #dc3545;
+    border: none;
+    box-shadow: 0px 0px 5px #FFF;
+    color: #FFF;
+    width: 16px;
+    height: 16px;
+    font-size: x-small;
+}
+
+.custom-bg-box1 {
+    display: flex;
+    background: transparent;
+    background-color: transparent;
+    box-shadow: 0px 0px 4px #CCC;
+    padding: 2px;
+    border-radius: 2px;
+}

@@ -1,0 +1,110 @@
+/* ----------------------- Common Styles -------------------------*/
+
+.bg-dark-green {
+    background: #2e7d32;
+    background-color: #2e7d32;
+}
+
+
+.float-endo {
+    float: right !important;
+}
+
+
+/* --------------------------- ICON Styles -------------------------- */
+.xs-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.xss-icon {
+    width: 14px;
+    height: auto;
+}
+
+.xsa-icon {
+    width: 30px;
+}
+
+.xs-horiz-icon {
+    width: 180px;
+    height: auto;
+}
+
+.small-icon {
+    width: 50px;
+    /* height: 40px; */
+}
+
+.img-bg-fluid {
+    /* background-image: url("./images/papers.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    /* height: 80vh; */
+    /* background-position-x: center;
+    background-clip: border-box; */
+}
+
+.img-bg-fluid2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-clip: border-box;
+}
+
+
+.grad1 {
+    /* height: 250px;
+    width: 100%; */
+    background-color: #1fc8db;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    /* color: white; */
+    opacity: 0.95;
+}
+
+
+.help-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px;
+    cursor: pointer;
+}
+
+.flexo-line {
+    display: flex;
+}
+
+.radi-circle-o {
+    box-shadow: 0px 0px 3px #ccc;
+    border-radius: 50%;
+}
+
+
+.model-headero {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+
+.btn-closeo {
+    /* padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto; */
+    background: #FFF;
+    border: none;
+    /* border-radius: 50% 50%;
+    box-shadow: 0px 0px 2px; */
+    /* padding: 5px; */
+    top: 8px;
+    color: #9e9e9e;
+    right: 8px;
+    position: absolute;
+}
