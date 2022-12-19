@@ -11,3 +11,15 @@ What's next for Intelligent Extractor ?
 Integrate more cognitive services like Face API, Speech to text convertor for further taking this product to next level
 
 Source code briefing:
+
+We have segregated the application source code files under "Front end" and "Back end"
+
+Front end Tech stack: ReactJS
+
+Back end Tech stack: Python, Django
+
+DB: MongoDB
+
+Details of Front end components:
+
+
