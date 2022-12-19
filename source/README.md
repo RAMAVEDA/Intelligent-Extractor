@@ -22,4 +22,24 @@ DB: MongoDB
 
 Details of Front end components:
 
+Key files under Front end:
+
+Dockerfile - run application on nginx
+deployment.yaml - enable the application to run on Azure Kubernetes Services (AKS)
+index.js - initial file to be invoked when comtainer run
+route.js - container all routes for application
+nginxconf - webserver configuration file
+app.js  - landing file for the front end
+
+
+Key files under Back end:
+
+Dockerfile - for containerizing the backend Python - Djnago components
+deployment.yaml - enable the application to run on Azure Kubernetes Services (AKS)
+Manage.py - Django initializing file
+settings.py - Django configuration file
+requirements.txt - all python based libraries listed for runtime installation
+url.py - contains all application urls
+
+
 
